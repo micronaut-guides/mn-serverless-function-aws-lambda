@@ -35,7 +35,7 @@ include::{sourceDir}/src/main/java/example/micronaut/BookRequestHandler.java[]
 
 <1> The class extends https://micronaut-projects.github.io/micronaut-aws/latest/api/io/micronaut/function/aws/MicronautRequestHandler.html[MicronautRequestHandler] and defines input and output types.
 
-The generated test shows how the verify the function behaviour:
+The generated test shows how to verify the function behaviour:
 
 [source,java]
 .src/test/java/example/micronaut/BookRequestHandlerTest.java
